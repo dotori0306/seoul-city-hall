@@ -1,0 +1,53 @@
+.blind{
+    position: absolute;
+    width: 1px;height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    margin: -1px;
+}
+
+.common-inner{
+    position: relative;
+    width: 1152px;
+    margin: 0 auto;
+    min-width: 1152px;
+}
+
+.inner{
+    position: relative;
+    width: 1152px;
+    margin: 0 auto;
+    min-width: 1152px;
+}
+
+
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+
+    .sc-visual &{
+        margin-bottom: 0;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .sc-service &{
+        border-bottom: 1px solid #dbdbdb;
+        padding-bottom: 10px;
+    }
+
+    .sc-board &{
+        border-bottom: 2px solid #dbdbdb;
+        padding-bottom: 10px;
+    }
+
+    .sc-often &{
+        margin-bottom: 10px;
+    }
+
+    .sc-video &{margin-bottom: 11px;}
+    .sc-s-news &{margin-bottom: 11px;}
+    
+
+}

@@ -1,0 +1,228 @@
+header .top_area .logo_area {
+  width: 97.5px;
+  margin-top: 8px;
+}
+
+header .top_area .logo {
+  width: 290px;
+  height: 27px;
+  background: url(../img/icon_set_common.png) no-repeat -5px -165px;
+  float: left;
+}
+
+header .top_area .logo a {
+  display: block;
+  height: 100%;
+}
+
+header .top_area .utill_wrap {
+  overflow: hidden;
+}
+
+header .top_area .utill_wrap ul {
+  float: left;
+}
+
+header .top_area .utill_wrap ul li {
+  float: left;
+  margin-left: 20px;
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+header .top_area .utill_wrap .utill {
+  float: right;
+  font-size: 16px;
+  height: 48px;
+  line-height: 48px;
+  font-weight: 700;
+}
+
+header .top_area .utill_wrap .utill a {
+  padding: 0 10px;
+}
+
+header .search_area {
+  overflow: hidden;
+  position: relative;
+}
+
+header .search_area .logo {
+  background: url(../img/logo_new_2019.png) no-repeat 0 0;
+  margin: 38px 0 30px;
+  width: 178px;
+  height: 51px;
+  float: left;
+}
+
+header .search_area .serach {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 460px;
+  height: 42px;
+  border: 3px solid #2292e9;
+}
+
+header .search_area .serach input {
+  padding: 0 10px;
+  height: 38px;
+  line-height: 38px;
+  width: 400px;
+}
+
+header .search_area .serach .search_btn {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  background: url(../img/icon_set_common.png) no-repeat -32px -97px;
+}
+
+header .weather {
+  float: right;
+  right: 0;
+  top: 30px;
+  width: 260px;
+  margin-top: 40px;
+}
+
+header .weather .ico {
+  background: url(../img/weathericon_new_d0.png) no-repeat;
+  width: 58px;
+  height: 47px;
+  float: left;
+}
+
+header .weather .txt .temp {
+  font-size: 25px;
+  margin-right: 5px;
+}
+
+header .weather .txt .txt1 {
+  font-size: 16px;
+}
+
+header .weather .txt p {
+  font-size: 13px;
+}
+
+footer .corp {
+  position: relative;
+}
+
+footer .corp .corp_list {
+  padding: 15px 0;
+  overflow: hidden;
+  font-size: 12px;
+  color: #636363;
+  position: relative;
+}
+
+footer .corp .corp_list li {
+  float: left;
+}
+
+footer .corp .corp_list li + ::before {
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  background-color: #dcdcdc;
+  vertical-align: -1px;
+  margin: 0 10px;
+}
+
+footer .corp .sns_area ul {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+footer .corp .sns_area ul li {
+  float: left;
+}
+
+footer .corp .sns_area ul li + li {
+  margin-left: 12px;
+}
+
+footer .corp .sns_area ul li a {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+footer .corp .sns_area ul li .link_facebook {
+  background: url(../img/icon_set_sns.png) no-repeat -25px 0;
+}
+
+footer .corp .sns_area ul li .link_twitter {
+  background: url(../img/icon_set_sns.png) no-repeat -50px 0;
+}
+
+footer .corp .sns_area ul li .link_insta {
+  background: url(../img/icon_set_sns.png) no-repeat -75px 0;
+}
+
+footer .corp .sns_area ul li .link_kakao {
+  background: url(../img/icon_set_sns.png) no-repeat -100px 0;
+}
+
+footer .corp .sns_area ul li .link_youtube {
+  background: url(../img/icon_set_sns.png) no-repeat -125px 0;
+}
+
+footer .corp .sns_area ul li .link_blog {
+  background: url(../img/icon_set_sns.png) no-repeat -150px 0;
+}
+
+footer .info {
+  padding: 22px 0;
+  border-top: 1px solid #ccc;
+  position: relative;
+}
+
+footer .info .call {
+  margin-right: 40px;
+  float: left;
+  width: 108px;
+  height: 45px;
+  background: url(../img/icon_set_common.png) no-repeat -180px 0;
+}
+
+footer .info address {
+  font-size: 12px;
+  display: inline-block;
+  color: #636363;
+  line-height: 15px;
+}
+
+footer .info address p {
+  padding: 0 0 2px;
+}
+
+footer .info address p .s {
+  font-size: 11px;
+}
+
+footer .mark {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+footer .mark a + a {
+  margin-left: 10px;
+}

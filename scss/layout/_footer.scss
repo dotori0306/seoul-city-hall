@@ -1,0 +1,108 @@
+footer{
+
+    .corp{
+        position: relative;
+
+        .corp_list{
+            padding: 15px 0;
+            overflow: hidden;
+            font-size: 12px;
+            color: #636363;
+            position: relative;
+            
+            li{
+                float: left;
+
+                &+::before{
+                    content: "";
+                    display: inline-block;
+                    width: 1px;
+                    height: 11px;
+                    background-color: #dcdcdc;
+                    vertical-align: -1px;
+                    margin: 0 10px;
+                }
+            }
+        }
+        
+
+        .sns_area{
+            
+            .sns-list{
+                position: absolute;
+                top: 50%;right: 0;
+                transform: translateY(-50%);
+
+                .sns-item{
+                    float: left;
+                    background: #f00;
+                    width: 24px;height: 24px;
+                    background: url(../img/icon_set_sns.png) no-repeat;
+
+                    a{height: 100%;display: block;}
+                
+                    +.sns-item{margin-left: 12px;}
+
+                    &.facebook{background-position: -25px 0;}
+                    &.twitter{background-position: -50px 0;}
+                    &.insta{background-position: -75px 0;}
+                    &.kakao{background-position: -100px 0;}
+                    &.youtube{background-position: -125px 0;}
+                    &.blog{background-position: -150px 0;}
+
+                    &:hover{
+                        &.facebook{background-position: -25px -25px;}
+                        &.twitter{background-position: -50px -25px;}
+                        &.insta{background-position: -75px -25px;}
+                        &.kakao{background-position: -100px -25px;}
+                        &.youtube{background-position: -125px -25px;}
+                        &.blog{background-position: -150px -25px;}
+                    }
+                }
+            }
+            
+    
+        }
+    }
+
+    .info{
+        padding: 22px 0;
+        border-top: 1px solid #ccc;
+        position: relative;
+
+        .call{
+            margin-right: 40px;
+            float: left;
+            width: 108px;
+            height: 45px;
+            background: url(../img/icon_set_common.png) no-repeat -180px 0;
+        }
+
+        address{
+            font-size: 12px;
+            display: inline-block;
+            color: #636363;
+            line-height: 15px;
+
+            p{
+                padding: 0 0 2px;
+
+                .s{font-size: 11px;}
+            }
+        }
+    }
+
+    .mark-area{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+
+        a+a{
+            margin-left: 10px;
+        }
+    }
+
+
+    
+}

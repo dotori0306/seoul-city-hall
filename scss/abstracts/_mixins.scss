@@ -1,0 +1,28 @@
+
+
+@mixin elip($line,$height:1){
+    overflow: hidden;
+    // 넘치는 텍스트 숨기기
+    text-overflow: ellipsis;
+    // 단독으로 사용불가. 말 줌임표 붙여주는 것
+    // white-space: nowrap;
+    // 위에 세개는 세트로 필요
+
+    @if ($line > 1){
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: $line;
+        min-height: $height*$line+px;
+    }@else{
+        white-space: nowrap;
+    }
+}
+
+
+@mixin clear{
+    &::after{
+        content: "";
+        clear: both;
+        display: block;
+    }
+}
