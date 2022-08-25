@@ -130,6 +130,7 @@ $('.sub-list li:first-child').keydown(function(e){
   // 키보드 값
   if(keycode == 9 && e.shiftKey){
     $('.sub-list').stop().slideUp();
+    $('.btn-title').removeClass('on');
   }
 
 
@@ -140,6 +141,7 @@ $('.sub-list li:last-child').keydown(function(e){
   var keycode = e.keyCode || e.which;
   if(keycode == 9 && !e.shiftKey){
     $('.sub-list').stop().slideUp();
+    $('.btn-title').removeClass('on');
   }
 
 
